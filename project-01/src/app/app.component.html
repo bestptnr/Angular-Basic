@@ -1,0 +1,52 @@
+<!-- <div>
+  <span>มา 4 จ่าย 3</span><br>
+  <div>
+    <input type="number" placeholder="ราคา" [(ngModel)]="price">
+    <button type="button" (click)="calculateValue()">คำนวณ</button>
+  </div>
+  <span *ngIf="finalValue !== null">
+    ต้องจ่าย {{finalValue | number : '1.2-2'}}
+  </span>
+</div>
+<app-action-bar (numberChange)="testNumberChange($event)" [step]="5"></app-action-bar>
+<app-action-bar (numberChange)="testNumberChange($event)" [step]="10"></app-action-bar> -->
+<!-- 
+<app-max-min-meter
+  [minLabel]="'myMinLabel'"
+  [maxLabel]="'myMaxLabel'"
+  (minChange)="doAppMinChange($event)"
+  (maxChange)="doAppMaxChange($event)"
+></app-max-min-meter>
+
+
+<app-square-flex [divHeight]="height" [divWidth]="width"></app-square-flex>
+<div>
+  width : 
+  <button type="button" (click)="width=50">50</button>
+  <button type="button" (click)="width=100">100</button>
+  <button type="button" (click)="width=150">150</button>
+
+</div> -->
+
+<!-- <app-action-bar [value]="appCounter" [(value)]="appCounter" [step]="20"></app-action-bar>
+<app-square-flex [divWidth]="appCounter"></app-square-flex> -->
+
+
+<!-- <div *ngIf="activate else elseTempate">
+  <app-action-bar></app-action-bar>
+</div>
+<ng-template #elseTempate>
+  <div>activate now</div>
+</ng-template>
+<button type="button" (click)="activate=true">Activate</button> -->
+
+<!-- <app-action-bar [inputDisplay]="false"></app-action-bar> -->
+
+<!-- <div *ngFor="let x of customerList; index as i">{{x}} {{i}}
+<button type="button" (click)="removeCustomer(i)">remove</button></div>
+
+<button type="button" (click)="onPushCustomer()">push</button>
+<button type="button" (click)="onUnshiftCustomer()">unshift</button> -->
+
+
+<app-test-request-get></app-test-request-get>

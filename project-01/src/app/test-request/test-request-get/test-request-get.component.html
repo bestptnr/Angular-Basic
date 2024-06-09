@@ -1,0 +1,8 @@
+<div>
+    <label>name : </label>
+    <input type="text" [(ngModel)]="name">
+    <button type="button" (click)="onSearchNameBook()">search</button>
+</div>
+<div *ngFor="let book of bookList;index as i">
+    {{i+1}} {{book.isbn}} {{book.name}}
+</div>
